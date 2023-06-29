@@ -2,25 +2,7 @@
 Automated Selfie System is a Python-based project that utilizes computer vision and deep learning techniques to capture selfies automatically. When we run the code the detects smile using LENET 5 architecture in the backend. Capture selfies effortlessly and hands-free. User-friendly, convenient, and fun.
 
 **DATASET DESCRIPTION**
-The GENKI4K dataset is used for smile detection, containing 4000 images with 2126 smiling and 1838 non-smiling images.
-
-The proposed smile detection system in the research paper includes GFE, LBP, data amalgamation using autoencoder, and KSOM-based classifier.
-
-GFE extracts geometric features from facial regions like eyes, nose, eyebrows, and lips.
-
-LBP feature extraction labels pixels based on their neighborhood to capture texture indicators.
-
-Autoencoder is used for feature vector compression and improved feature representation.
-
-KSOM is a neural network algorithm used for clustering complex datasets and visualizing high-dimensional data.
-
-The dataset used in the project has 13241 images, with 9213 non-smiling and 4028 smiling images.
-
-Class weight and class total are used to handle the dataset's skew and make the model understand the class imbalance.
-
-Pre-processing steps include standardizing the images to 28x28 size and converting them to grayscale for better CNN detection.
-
-Grayscale is preferred for CNN as it simplifies the detection of faces and smiles.
+The GENKI4K dataset is used for smile detection, containing 4000 images with 2126 smiling and 1838 non-smiling images. The proposed smile detection system in the research paper includes GFE, LBP, data amalgamation using autoencoder, and KSOM-based classifier. GFE extracts geometric features from facial regions like eyes, nose, eyebrows, and lips. LBP feature extraction labels pixels based on their neighborhood to capture texture indicators. Autoencoder is used for feature vector compression and improved feature representation. KSOM is a neural network algorithm used for clustering complex datasets and visualizing high-dimensional data. The dataset used in the project has 13241 images, with 9213 non-smiling and 4028 smiling images. Class weight and class total are used to handle the dataset's skew and make the model understand the class imbalance. Pre-processing steps include standardizing the images to 28x28 size and converting them to grayscale for better CNN detection. Grayscale is preferred for CNN as it simplifies the detection of faces and smiles.
 
 **PROPOSED METHODOLOGY**
 
