@@ -1,4 +1,4 @@
-# automated_selie_system
+# automated_selfie_system
 Automated Selfie System is a Python-based project that utilizes computer vision and deep learning techniques to capture selfies automatically. When we run the code the detects smile using LENET 5 architecture in the backend. Capture selfies effortlessly and hands-free. User-friendly, convenient, and fun.
 
 **DATASET DESCRIPTION**
